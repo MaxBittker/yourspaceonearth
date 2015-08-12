@@ -14,7 +14,6 @@ $.ajax({
     success: function(response) {
         sPop = response.total_population[0].population;
         ePop = response.total_population[1].population;
-        console.log(sPop);
         update();
     },
     error: function(xhr, status) {
