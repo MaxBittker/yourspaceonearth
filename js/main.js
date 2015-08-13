@@ -26,7 +26,7 @@ $.ajax({
 function update() {
 	elapsed = (Date.now()-start)/86400000;
 	cPop  = sPop + (ePop - sPop)*elapsed;
-    $("#space").text( (landMass / cPop).toFixed(8) + " acres per person ");
+    $("#space").text( (landMass / cPop).toFixed(9) + " acres per person ");
  window.setTimeout(update, 1000);
 
 };
