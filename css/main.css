@@ -29,6 +29,20 @@ html {
     margin: 0;
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 420px) {
+html {
+    font-size: 3em;
+}
+.big{
+    font-size: 75px;
+}
+}
+
+/* Styles */
+}
+
+
 
 /*
  * Remove text-shadow in selection highlight:
